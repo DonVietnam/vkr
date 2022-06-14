@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+    vkr:
+        image: danilsord/vkr:latest
+        ports:
+            - "8088:8088"
+        restart: "always"
